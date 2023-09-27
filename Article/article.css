@@ -24,8 +24,9 @@ body {
 }
 .honeyarticle {
   background-image: url(../assets/imgs/honey.jpg);
-  width: 600px;
+  width: 90%;
   height: 400px;
   background-repeat: no-repeat;
   align-self: center;
+  background-size: cover;
 }

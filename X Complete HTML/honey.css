@@ -1,0 +1,59 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+
+  font-size: 1.5em;
+}
+header {
+  width: 90%;
+}
+nav {
+  background-color: #fbf7e3;
+  width: 90%;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 6em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  flex-wrap: wrap;
+}
+#logo {
+  background-image: url(../assets/imgs/logo.png);
+  width: 2.5em;
+  height: 2.2em;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+li button {
+  background-color: #f3df85;
+
+  border: none;
+  border-radius: 6em;
+  padding: 0.9em 1.2em;
+  font-size: 1em;
+  order: 0;
+}
+
+#shop {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  width: 8em;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 0.7em 0em 0.7em 0em;
+  justify-content: space-around;
+  order: 1;
+}
+
+button a {
+  text-decoration: none;
+  color: #612406;
+}
