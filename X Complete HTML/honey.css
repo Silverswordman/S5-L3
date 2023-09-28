@@ -1,12 +1,13 @@
 body {
   font-family: "Open Sans", sans-serif;
   display: flex;
-  align-items: center;
-
-  font-size: 1.5em;
+    font-size: 1.5em;
+    align-items: center;
 }
 header {
   width: 90%;
+  display: flex;
+  align-items: center;
 }
 nav {
   background-color: #fbf7e3;
@@ -14,12 +15,16 @@ nav {
   padding: 1em;
   margin: 1em;
   border-radius: 6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 nav ul {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
   width: 90%;
   flex-wrap: wrap;
 }
@@ -31,14 +36,15 @@ nav ul {
   background-size: contain;
 }
 
+
 li button {
   background-color: #f3df85;
-
+display: flex;
   border: none;
   border-radius: 6em;
   padding: 0.9em 1.2em;
   font-size: 1em;
-  order: 0;
+  order: 1;
 }
 
 #shop {
@@ -50,7 +56,8 @@ li button {
   font-size: 1.5em;
   padding: 0.7em 0em 0.7em 0em;
   justify-content: space-around;
-  order: 1;
+  order: 0;
+  align-self: flex-start;
 }
 
 button a {

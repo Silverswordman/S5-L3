@@ -1,9 +1,12 @@
 body {
   font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+}
+header {
+  display: flex;
   display: flex;
   justify-content: center;
-
-  font-size: 1.5em;
+  width: 90%;
 }
 nav {
   background-color: #fbf7e3;
